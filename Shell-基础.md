@@ -208,6 +208,11 @@ Shell是一个命令行解释器。将用户操作和linux内核连接起来，�
     调用之前先声明；返回值在0-255。
 ## 总和应用
 1. 归档文件
+   ![image](https://github.com/user-attachments/assets/94f7cf8b-cfec-4290-b8c2-8b88e98ceff3)
+   ![image](https://github.com/user-attachments/assets/f728e981-808d-42e5-b89c-cb99b05e3766)
+   ![image](https://github.com/user-attachments/assets/34cd7fc0-d15f-46e2-93fd-675dd886b531)
+
+
 
 
 
