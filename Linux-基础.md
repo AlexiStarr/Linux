@@ -8,6 +8,11 @@
   - ~是主文件夹
   - 切换输入法win(super)+空格
   - linux中复制粘贴是ctl+shift+c/v
+- 网络连接
+
+  如果网络无法连接，并且ifconfig里面也没有ens33，可以检查接下来几个方面：  
+  1. ``/etc/sysconfig/network-scripts/ifcfg-ens33``网络配置文件夹
+  2. network.service和NetworkManager.service是否冲突。可以把后者关了，重启前者。
 ## 文件与目录结构
 ### linux文件
 linux系统中一切皆文件
