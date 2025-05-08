@@ -32,3 +32,62 @@
    ![image](https://github.com/user-attachments/assets/18d0674b-26ae-40eb-a248-7e99ace593c8)
    而且还必须要用单引号引起来。
    ![image](https://github.com/user-attachments/assets/87db32bb-f2c4-4f28-b87e-c09c2725d555)
+## 实际运用-手机号码匹配
+![image](https://github.com/user-attachments/assets/8b0798b3-4e6f-4cfa-a8e1-4a4fe820027a)
+-E表示支持扩展写法``[0-9]{9}``出现九次
+# 文本处理工具
+1. cut
+   在文本文件进行数据剪切
+   - 基本用法
+     ```
+     cut [选项参数] filename
+     ```
+     默认分隔符是制表符
+   - 选项说明
+     ![image](https://github.com/user-attachments/assets/71c53bac-df45-45c2-824d-a09aaea55b05)
+     -f列号-d分隔符-c切字符
+   - 例
+     ![image](https://github.com/user-attachments/assets/7fb35c50-683d-4eeb-a547-161078f372fb)
+     ![image](https://github.com/user-attachments/assets/955a4eea-16ce-4989-b966-08ab0b9a55c6)
+     ![image](https://github.com/user-attachments/assets/04cb4841-5ac8-479f-b72b-7a59143f4f9c)
+     表示第三列及之后全部提取
+     ![image](https://github.com/user-attachments/assets/a8c091b8-f471-4b65-b418-f85aaa532a30)
+     前四列全部提取
+     ![image](https://github.com/user-attachments/assets/b94e6459-d0f2-47b8-bafa-1d581f483d57)
+     3-6列
+     ![image](https://github.com/user-attachments/assets/57c8d6c4-6275-4bd4-bf7a-9623ae5f5bee)
+     获取当前ip地址
+     ![image](https://github.com/user-attachments/assets/2e408b42-437a-4a7f-a29c-3b8770f1c909)
+     把所有ip地址都切出来
+2. awk
+   最强大的文本分析工具
+   - 基本语法
+     ![image](https://github.com/user-attachments/assets/19f614e8-8b68-474d-9bd9-7d58e7e9b1c1)
+     pattern就是一个正则
+   - 选项说明
+     ![image](https://github.com/user-attachments/assets/cac2ea82-a5fc-402e-a19a-c9c556e4303b)
+   - 例
+     ![image](https://github.com/user-attachments/assets/a1c26fc5-4edc-4f88-8e8e-cb43a9ec6aed)
+     ![image](https://github.com/user-attachments/assets/b5c959ce-c783-4cd1-b6ab-b62aaf4562e9)
+     ![image](https://github.com/user-attachments/assets/5704d9a7-3a74-4028-81e2-5fbade5d7de5)
+     ![image](https://github.com/user-attachments/assets/c9ffbad1-0fbd-4698-9a2f-24125c1225c4)
+     用一对单引号就行了。
+     将id号加一两种方法：
+     ![image](https://github.com/user-attachments/assets/bf256999-9b94-4dd2-aa01-fa8c2d36bcdc)
+     将id号加一
+   - awk内置变量
+     ![image](https://github.com/user-attachments/assets/255b6876-fbd4-4fa2-bc16-7b8832213aea)
+   - 例
+     ![image](https://github.com/user-attachments/assets/75649118-d265-4629-a72a-c407d4af9a8a)
+     用awk的话前面的空格就不算列了，因此是第二列，用cut的话就算，是第十列。
+     ![image](https://github.com/user-attachments/assets/3fa520a2-f037-4bd2-b2b2-b19a05314ce1)
+## 综合运用
+![image](https://github.com/user-attachments/assets/29426e49-6b7c-47e0-9eed-5ddd72fd9b62)
+
+
+
+     
+
+
+
+
