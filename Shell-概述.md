@@ -181,6 +181,37 @@ Shell是一个命令行解释器。将用户操作和linux内核连接起来，�
     ![image](https://github.com/user-attachments/assets/51370006-960d-4434-ac50-2c3a87bc0722)
 ## 函数
 1. 系统函数
+   1. basename
+     - 基本语法
+       ![image](https://github.com/user-attachments/assets/328db253-62ec-48e5-9799-8b0707e6cc0c)
+       - 例
+         ![image](https://github.com/user-attachments/assets/f9440f54-fa88-411a-90b2-ed70d2fec194)
+         其实只是做了一个剪切的工作
+         ![image](https://github.com/user-attachments/assets/df9a22e8-a56a-4ab3-8edd-3fbd69904501)
+  
+         ![image](https://github.com/user-attachments/assets/5f1f4cbb-1f23-4fab-8d7f-271576e5f625)
+   2. dirname
+     - 基本语法
+       ![image](https://github.com/user-attachments/assets/2317de36-1fd5-4c01-ae9e-94309f5033a0)
+       - 例
+         ![image](https://github.com/user-attachments/assets/d2539fe3-5f0b-4d3f-a5e7-baac5a87b262)
+         也只是做了剪切
+         ![image](https://github.com/user-attachments/assets/f68da8ce-f6a3-454d-baaf-4a7584340ed9)
+         ![image](https://github.com/user-attachments/assets/dc2a8f5e-ab2c-4d24-9927-586d321e1967)
+         注意不能直接``dirname $0``，因为有可能输入的是相对路径，所以要用``pwd``获取绝对路径。使用``$()``调用系统函数的命令，shell中把这叫做***命令替换***，实际上就是系统函数的调用。
+2. 自定义函数
+  - 基本语法
+    ![image](https://github.com/user-attachments/assets/05eedc59-3649-4c12-a5ae-762c8a6c0b33)
+    []括起来表示可以省略。
+  - 注意
+    ![image](https://github.com/user-attachments/assets/6c61e000-66b0-4bea-80f1-96f3f4839a30)
+    调用之前先声明；返回值在0-255。
+## 总和应用
+1. 归档文件
+
+
+
+     
    
 
 
