@@ -83,6 +83,8 @@ Shell是一个命令行解释器。将用户操作和linux内核连接起来，�
     - 例
       ![image](https://github.com/user-attachments/assets/a2e6ce1a-35a6-40ae-9b1b-b7c9934e22a3)
       不做循环看不出什么区别。
+    - 两者不用""引起来的话没有任何区别
+         ![image](https://github.com/user-attachments/assets/c1f9baec-c062-4cd1-8aae-d6110a0e0d95)
 4. $?
    - 基本语法
      ![image](https://github.com/user-attachments/assets/b1e91e45-1fcb-4d3a-9ee2-d9d10cab3d76)
@@ -140,6 +142,50 @@ Shell是一个命令行解释器。将用户操作和linux内核连接起来，�
         ![image](https://github.com/user-attachments/assets/c4e4daa5-3208-4e70-9ef2-563942f3a5aa)
         在一个中括号里&是-a，|是-o
         ![image](https://github.com/user-attachments/assets/07a4aba5-6dc3-4d3b-919f-0c2ab4d3e097)
+        ![image](https://github.com/user-attachments/assets/f50e0df0-c443-43b8-b826-04dea91d33c9)
+        ![image](https://github.com/user-attachments/assets/022c79b7-d89c-4d2a-829b-4af4946d83dd)
+
+        ![image](https://github.com/user-attachments/assets/e072a647-4278-47a8-8b09-db60af55b71c)
+2. case语句
+   - 基本语法
+     ![image](https://github.com/user-attachments/assets/f406488a-e650-4c2e-9e7a-579820d0c051)
+   ``;;``相当于``break;``，``*)``相当于``default:``。
+   - 例
+     ![image](https://github.com/user-attachments/assets/3f7f7eb3-69ad-4587-9959-6850c72a1276)
+
+     ![image](https://github.com/user-attachments/assets/2c30553e-06f0-4734-8bfd-78da308a2c8d)
+3. for循环
+   - 基本语法
+     1. ![image](https://github.com/user-attachments/assets/d32d5bf3-2172-4781-aeb2-c8a7fb84f8ff)
+        - 例
+          ![image](https://github.com/user-attachments/assets/440d650f-1049-4baa-b310-7db9e2dfb383)
+          双（）里可以直接用数学运算符号（<=）
+          ![image](https://github.com/user-attachments/assets/9553e72d-7efd-4193-b60e-1d9335a8e212)
+     2. ![image](https://github.com/user-attachments/assets/8ecc6cfa-ae0a-4e6a-9cb0-29818e4641a0)
+        - 例
+          ![image](https://github.com/user-attachments/assets/6cf63062-d548-43c1-adf9-d49f7128ba27)
+4. while循环
+   - 基本语法
+     1. ![image](https://github.com/user-attachments/assets/cf79d2a6-7b88-4d4a-a902-5d8890712022)
+        - 例
+          ![image](https://github.com/user-attachments/assets/db2d4d3f-74b5-40e9-9e97-942ad41d2562)
+          ![image](https://github.com/user-attachments/assets/271a32e6-2903-412a-9c02-76f840f204f1)
+          新式写法是let加上在其他语言惯用的写法：
+          ![image](https://github.com/user-attachments/assets/3958fbbd-c538-4ade-8d29-f7fb90ab6f6d)
+## read读取控制台输入
+- 基本语法
+  （输出是echo重定向）
+  ![image](https://github.com/user-attachments/assets/96500b81-c370-4132-a017-dc7443e2d19f)
+  - 例
+    ![image](https://github.com/user-attachments/assets/4c6e81ab-e13c-4de7-82fb-480613fdba02)
+    ![image](https://github.com/user-attachments/assets/51370006-960d-4434-ac50-2c3a87bc0722)
+## 函数
+1. 系统函数
+   
+
+
+
+
 
 
 
