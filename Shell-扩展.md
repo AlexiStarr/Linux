@@ -83,6 +83,18 @@
      ![image](https://github.com/user-attachments/assets/3fa520a2-f037-4bd2-b2b2-b19a05314ce1)
 ## 综合运用
 ![image](https://github.com/user-attachments/assets/29426e49-6b7c-47e0-9eed-5ddd72fd9b62)
+- 例
+  ![image](https://github.com/user-attachments/assets/c63d910d-c7f1-4b50-a5b8-dfdf42cd8d59)
+  ![image](https://github.com/user-attachments/assets/c0933bbd-af7c-4208-bcda-ffe320cc9ff6)
+  好玩嘿嘿。
+  写一个给指定用户发送信息的脚本：
+  ![image](https://github.com/user-attachments/assets/665fddd0-ce4a-4ef7-a713-8c3209ffd33c)
+  ![image](https://github.com/user-attachments/assets/13bf0451-ee6e-4d11-985e-e0eeedac2f45)
+  运行：
+  ![image](https://github.com/user-attachments/assets/960faaef-369a-4ec9-ba74-50b4652b6e4e)
+  ![image](https://github.com/user-attachments/assets/a23aaf77-d97a-4598-b70c-d99476346deb)
+
+
 
 
 
